@@ -1,0 +1,93 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Como cada navegador utiliza um valor diferente para margin e padding, nós
+    zeramos os valores para que possa haver um padrão. E pra deixar tudo do tamanho
+    que a gente quer, utilizamos um box-sizing, como border-box*/
+}
+
+header {
+    /*Como eu só tenho um header, posso utilizar o seletor pela tag.
+    E como se trata de uma caixa, fica mais facil pra mim estilizar. Através
+    da técnica do relógio, posso economizar código.*/
+    margin: 44px 0 80px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+    /*Foi criado uma classe para os links para facilitar a estilização dos links.
+    E quando vamos pegar as informações pelo figma, copiamos apenas o que sabemos o que é.*/
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.logo-image {
+    /*Foi criado uma classe para a imagem pois em alguns casos a mesma imagem
+    pode ser usada varias vezes.*/
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+    /* Tag semântica para deixar o html mais organizado e facilita também a estilização*/
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-main {
+    background: #ADFF00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
