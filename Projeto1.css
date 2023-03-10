@@ -91,3 +91,32 @@ p {
     line-height: 34px;
     color: #000000;
 }
+
+
+@media (max-width: 900px) {
+    header {
+        display: none;
+    }
+
+    .logo-image {
+        margin: 0 auto;
+        width: 90%;
+        height: 30%;
+    }
+
+    p {
+        display: none;
+    }
+    
+    section {
+        margin-left: 57px;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+}
